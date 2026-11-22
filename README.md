@@ -45,7 +45,9 @@ Then run `/mcp`, pick `ccs` and sign in.
 Settings → Apps & Connectors → Advanced settings → turn on **Developer mode** (on Business/Enterprise plans an admin may need to allow it). Then **Create** a connector: paste the URL as the MCP server URL, choose **OAuth**, and click **Create**.
 
 ### Cursor
-Add to `~/.cursor/mcp.json` (or `.cursor/mcp.json` in a project):
+[![Add to Cursor](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=construction-company-software&config=eyJ1cmwiOiJodHRwczovL3d3dy5jb25zdHJ1Y3Rpb24tY29tcGFueS1zb2Z0d2FyZS5jb20vYXBpL21jcCJ9)
+
+Or add to `~/.cursor/mcp.json` (or `.cursor/mcp.json` in a project):
 ```json
 {
   "mcpServers": {
@@ -67,6 +69,11 @@ Add to `.vscode/mcp.json`:
     }
   }
 }
+```
+
+### Gemini CLI
+```bash
+gemini extensions install https://github.com/constructioncompanysoftware/mcp
 ```
 
 ### Windsurf and other clients

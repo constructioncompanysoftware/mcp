@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "construction-company-software": {
+      "type": "http",
+      "url": "https://www.construction-company-software.com/api/mcp"
+    }
+  }
+}
